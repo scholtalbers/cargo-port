@@ -19,9 +19,11 @@ allowing them to rely on URLs being permanently available.
 
 Please make pull requests (PRs) adding new lines to the `urls.tsv` file with your package, the
 expected sha256sum, and optionally a comment. If you don't need to make
-sweeping changes to `urls.tsv` honestly your best choice for editing it is
-probably going to be a spreadsheet tool like libreoffice. If you do need to
-edit it in vim, I've found `:set ts=120` to be helpful in aligning columns.
+sweeping changes to `urls.tsv` the quickest choice for editing it is the 
+github online editor. Just ensure you change the **indent mode** to tabs. 
+Alternatively, using a spreadsheet tool like libreoffice will work best
+locally and for vizualising column alignments. 
+If you do need to edit it in vim, `:set ts=120` will be helpful in aligning columns.
 
 ## Tools Included
 
